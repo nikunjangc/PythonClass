@@ -1,0 +1,18 @@
+a=int(input('enter first number:'))
+b=int(input('enter second number:'))
+def addition(a,b):
+    return a+b
+def square(a):
+    return a*a
+def factorial(a):
+    d=1
+    c=range(1,a+1,1)
+    for n in c:
+        d=n*d
+        print(d)
+          
+    return print ('factorical of first number:',d)
+print('Addition:', addition(a,b))
+print ('Square of first number:', square(a))
+factorial(a)
+#testing for pull request
